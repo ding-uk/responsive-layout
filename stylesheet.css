@@ -1,43 +1,78 @@
 .main-wrapper {
+	width: 90%;
+	margin: auto;
+}
+/* Main Colors */
 
+.main-header {
+	background: CADETBLUE;
 }
 
-/* Header */
-
-header {
-	background: cyan;
+.main-wrapper {
+	background: white;
 }
 
-.logo {
-	display: inline-block;
-
+.main-logo {
+	background: HOTPINK;
 }
 
 .nav-bar {
-	background: coral;
+	background: CHARTREUSE;
 }
-
-ul {
-	list-style-type: none;
-}
-
-li a {
-	text-decoration: none;
-}
-
-/* Main */
 
 .mainContent {
 	background: PALEGOLDENROD;
 }
-
-/* Second */
 .secondContent {
 	background: SLATEBLUE;
 }
 
-/* Footer */
-
 footer {
 	background: ORANGE;
+}
+
+
+/* Header */
+
+.nav-bar {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.navcontainer li {
+	margin: 0 0 .2em 0;
+}
+
+
+.main-header {
+	padding: 20px;
+}
+
+.main-logo a {
+	text-decoration: none;
+}
+
+li a {
+	text-decoration: none;
+	list-style-type: none;
+
+
+}
+
+li {
+	list-style-type: none;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	display: block;
+
+}
+
+.main-logo,
+.nav-bar,
+.nav-bar li {
+	display: inline;
 }
