@@ -1,1 +1,43 @@
+.main-wrapper {
 
+}
+
+/* Header */
+
+header {
+	background: cyan;
+}
+
+.logo {
+	display: inline-block;
+
+}
+
+.nav-bar {
+	background: coral;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li a {
+	text-decoration: none;
+}
+
+/* Main */
+
+.mainContent {
+	background: PALEGOLDENROD;
+}
+
+/* Second */
+.secondContent {
+	background: SLATEBLUE;
+}
+
+/* Footer */
+
+footer {
+	background: ORANGE;
+}
