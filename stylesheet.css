@@ -2,6 +2,11 @@
 	width: 90%;
 	margin: auto;
 }
+
+* {
+  box-sizing: border-box;
+}
+
 /* Main Colors */
 
 .main-header {
@@ -16,13 +21,10 @@
 	background: HOTPINK;
 }
 
-.nav-bar {
-	background: CHARTREUSE;
-}
-
 .mainContent {
 	background: PALEGOLDENROD;
 }
+
 .secondContent {
 	background: SLATEBLUE;
 }
@@ -32,18 +34,15 @@ footer {
 }
 
 
-/* Header */
+/*======= Header ========*/
 
 .nav-bar {
-	margin: 0;
-	padding: 0;
 	list-style-type: none;
 }
 
 .navcontainer li {
 	margin: 0 0 .2em 0;
 }
-
 
 .main-header {
 	padding: 20px;
@@ -53,21 +52,30 @@ footer {
 	text-decoration: none;
 }
 
+.main-logo,
+.nav-bar li {
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.main-logo {
+	margin-right: 40px;
+}
+
 li a {
 	text-decoration: none;
 	list-style-type: none;
-
 }
 
 li {
 	list-style-type: none;
-
+	background: CHARTREUSE;
+	margin-right: 5px;
 }
 
 ul {
 	list-style-type: none;
 	display: block;
-
 }
 
 .main-logo,
@@ -76,9 +84,68 @@ ul {
 	display: inline;
 }
 
+.main-banner {
+	background: red;
+	padding: 20px;
+	text-align: center;
+}
+
+/*===== MAIN CONTENT ========*/
+
+html,
+body,
+.main-wrapper,
+.col{
+	height: 100%;
+}
+
+footer {
+	text-align: center;
+	padding: 20px;
+}
+
+.col {
+	display: inline-block;
+	padding: 20px;
+	margin-right: -5px;
+	vertical-align: top;
+}
+.mainContent {
+	width: 60%;
+	padding: 10px;
+}
+.secondContent {
+	width: 40%;
+	padding: 10px;
+
+}
 
 
+/* ===== MEDIA QUERIES =====*/
 
-* {
-	border-sizing: border-box; 
+@media (max-width: 768px) {
+	.main-logo,
+	.nav-bar,
+	.nav-bar li
+ {
+		display: block;
+		width: initial;
+		margin: initial;
+		height: initial;
+		text-align: center;
+	}
+
+	.
+
+	.main-logo {
+		margin-top: initial;
+	}
+
+	.nav-bar li  {
+		margin-top: 15px;
+	}
+
+	.main-banner {
+		display: none;
+	}
 }
